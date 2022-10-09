@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+.misname-message,
+.failure-message,
+.mismatch-message,
+.misnumber-message {
+    color: red;
+}
+
+.success-message,
+.match-message {
+    color: blue;
+}
+
+.style0,
+.style1 {
+    color: gray;
+}
+
+.signup-box {
+    margin: auto;
+    padding: 2rem 3rem 0 3rem;
+    width: 30rem;
+    min-width: 30rem;
+    height: 43rem;
+    min-height: 43rem;
+    display: block;
+    transform: translateY(15%);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 1em;
+    background-color: #f1f1f1;
+}
+
+input {
+    display: block;
+    margin-top: 2em;
+    text-indent: 1em;
+    border: 0.1em solid lightgray;
+    width: 28em;
+    min-width : 28em;
+    height: 3.8em;
+    min-height: 3.8em;
+}
+
+#signup-btn {
+    margin-top: 1rem;
+}

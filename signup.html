@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signup.css">
+    <title>명규의 회원가입 페이지</title>
+</head>
+<body>
+    <div class="signup-box">
+        <h1>회원가입</h1>
+        <form>
+            <div>
+                <input type="text" id="name" placeholder="이름">
+                <span class="misname-message hide">이름은 두 글자 이상이어야 합니다</span>
+            </div>
+
+            <div>
+                <input type="text" id="user-id" placeholder="아이디">
+                <div class="failure-message hide">아이디는 여섯 글자 이상이어야 합니다</div>
+                <div class="success-message hide">사용할 수 있는 아이디입니다</div>
+            </div>
+
+            <div>
+                <input type="password" id="password1" placeholder="비밀번호">
+                <div class="condition">비밀번호는 문자, 숫자로 구성하여 입력하세요</div>
+            </div>
+
+            <div>
+                <input type="password" id="password2" placeholder="비밀번호 확인">
+                <div class="mismatch-message hide">두 비밀번호가 일치하지 않습니다</div>
+                <div class="match-message hide">두 비밀번호가 일치합니다</div>
+            </div>
+
+            <div>
+                <input type="text" id="phone" placeholder="전화번호">
+                <div class="condition">전화번호는 특수기호 없이 숫자만 입력하세요</div>
+                <div class="misnumber-message hide">숫자를 입력해주세요</div>
+            </div>
+
+            <div>
+                <button id="signup-btn">회원가입</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="signup.js"></script>
+</html>
